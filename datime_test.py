@@ -1,5 +1,8 @@
-import datetime
-from zoneinfo import ZoneInfo # Python 3.9+ 內建
+from datetime import datetime #時間模組
+from zoneinfo import ZoneInfo 
 def get_timing():
-    start_time = datetime.datetime.now(ZoneInfo("Asia/Taipei"))
-    print("台灣時間：", start_time.hour, "點", start_time.minute, "分")
+    now_time = datetime.now(ZoneInfo("Asia/Taipei"))
+    #print("台灣時間：", now_time.hour, "點", now_time.minute, "分")
+    return now_time 
+
+
