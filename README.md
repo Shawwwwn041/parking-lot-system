@@ -11,7 +11,6 @@ car_module.py：車牌驗證模組，負責檢查 XXX-XXXX 格式。
 datime_test.py：時間管理模組，提供 Asia/Taipei 精準時區物件。
 
  核心功能
-車牌防呆：自動轉換大寫並過濾前後空格，確保字典檢索準確。
 
 時區追蹤：採用 ZoneInfo 確保與台灣標準時間同步。
 
